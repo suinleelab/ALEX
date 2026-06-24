@@ -1,0 +1,19 @@
+# Core — required to run the four ALEX scripts
+numpy==1.24.4
+torch==2.0.0
+captum==0.6.0
+pydantic==2.10.6
+openai>=1.40
+
+# Bundled src/ library and baselines
+pandas==1.5.3
+scipy==1.10.1
+matplotlib==3.7.1
+scikit-uplift==0.5.1
+
+# JAX CATENets backend (optional — the Torch backend is the default)
+jax==0.4.12
+jaxlib==0.4.12
+
+# Optional — only for local MedGemma inference in clinical_agent.py
+# transformers>=4.40
